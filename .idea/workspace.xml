@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8d8ea48-ab12-46f9-a37c-99b9f5898db7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/me/lmagic233/playground/sql/WindowTVFTwoPhaseAggr.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/me/lmagic233/playground/sql/WindowTVFTwoPhaseAggr.scala" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="flink-sql-and-calcite-playground" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/me/lmagic233/playground/sql/WindowTVFTwoPhaseAggr.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/api/TableEnvironment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="999" column="16" selection-start-line="999" selection-start-column="16" selection-end-line="999" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="735" column="52" selection-start-line="735" selection-start-column="52" selection-end-line="735" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/delegation/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/delegation/ParserImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/operations/SqlToOperationConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="1054" column="34" selection-start-line="1054" selection-start-column="34" selection-end-line="1054" selection-end-column="34" />
+              <folding>
+                <element signature="e#52431#52432#0" expanded="true" />
+                <element signature="e#52490#52491#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/calcite/sql/SqlKind.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/flink/sql/parser/ddl/SqlCreateFunction.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GlobalWindowAggsHandler</find>
+      <find>GlobalWindowAggs</find>
+      <find>GlobalWindowAgg</find>
+      <find>code:</find>
+      <find>code</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/CalciteMiniExp.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
+        <option value="$PROJECT_DIR$/src/main/scala/me/lmagic233/playground/sql/WindowTVFTwoPhaseAggr.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Maven\repo" />
+        <option name="mavenHome" value="E:/Maven/apache-maven-3.5.4-bin" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.5.4-bin\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="389" />
+    <option name="y" value="158" />
+    <option name="width" value="1939" />
+    <option name="height" value="1059" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="playground" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="playground" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="playground" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649681104700" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Flink自定义源连接器来从电子邮件收件箱中读取数据/blog-imap" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ParseTest">
+    <configuration name="CalciteMiniExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.lmagic233.playground.CalciteMiniExp" />
+      <module name="flink-sql-and-calcite-playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.lmagic233.playground.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.lmagic233.playground.ParseTest" />
+      <module name="flink-sql-and-calcite-playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.lmagic233.playground.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowTVFTwoPhaseAggr" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="me.lmagic233.playground.sql.WindowTVFTwoPhaseAggr" />
+      <module name="flink-sql-and-calcite-playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.lmagic233.playground.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ParseTest" />
+        <item itemvalue="Application.WindowTVFTwoPhaseAggr" />
+        <item itemvalue="Application.CalciteMiniExp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8d8ea48-ab12-46f9-a37c-99b9f5898db7" name="Default Changelist" comment="" />
+      <created>1647770786599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647770786599</updated>
+      <workItem from="1647770790865" duration="3394000" />
+      <workItem from="1647832151893" duration="4007000" />
+      <workItem from="1647843412355" duration="973000" />
+      <workItem from="1647844664126" duration="1532000" />
+      <workItem from="1647865182938" duration="2327000" />
+      <workItem from="1647914561914" duration="1185000" />
+      <workItem from="1647931725068" duration="8788000" />
+      <workItem from="1648177059245" duration="1372000" />
+      <workItem from="1648438487123" duration="10114000" />
+      <workItem from="1649419749146" duration="612000" />
+      <workItem from="1649679793562" duration="1094000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35398000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978308" visible="true" weight="0.27771854" />
+      <window_info id="Structure" order="1" sideWeight="0.50187266" side_tool="true" weight="0.26599148" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="aws.explorer" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.5021692" side_tool="true" weight="0.26865673" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3264642" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39370933" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="MyBatis Log" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java</url>
+          <line>804</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/generated/CompileUtils.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/operators/aggregate/MiniBatchGroupAggFunction.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-clients_2.11/1.14.2/flink-clients_2.11-1.14.2-sources.jar!/org/apache/flink/client/deployment/executors/AbstractJobClusterExecutor.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java</url>
+          <line>1273</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/ExecNodeBase.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/stream/StreamExecSink.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime/1.14.2/flink-runtime-1.14.2-sources.jar!/org/apache/flink/runtime/taskmanager/Task.java</url>
+          <line>574</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime/1.14.2/flink-runtime-1.14.2-sources.jar!/org/apache/flink/runtime/taskmanager/Task.java</url>
+          <line>765</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime/1.14.2/flink-runtime-1.14.2-sources.jar!/org/apache/flink/runtime/taskmanager/Task.java</url>
+          <line>926</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime/1.14.2/flink-runtime-1.14.2-sources.jar!/org/apache/flink/runtime/taskexecutor/TaskExecutor.java</url>
+          <line>707</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java</url>
+          <line>810</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime/1.14.2/flink-runtime-1.14.2-sources.jar!/org/apache/flink/runtime/memory/MemoryManager.java</url>
+          <line>244</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/delegation/ParserImpl.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/delegation/PlannerBase.scala</url>
+          <line>184</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/delegation/StreamPlanner.scala</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/delegation/PlannerBase.scala</url>
+          <line>182</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/optimize/program/FlinkChainedProgram.scala</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/me/lmagic233/playground/sql/WindowTVFTwoPhaseAggr.scala</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="execGraph.getRootNodes" language="Scala" />
+        <watch expression="rightSelect" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>rightSelect</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>execGraph.getRootNodes</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((StreamGraph) pipeline).getStreamingPlanAsJSON()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.apache.flink.streaming.api.graph.StreamGraph</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>taskInformation</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>transformations</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inputTransform</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((MiniClusterJobClient) jobClient).classLoader</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.apache.flink.runtime.minicluster.MiniClusterJobClient</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((MiniClusterJobClient) jobClient).jobID</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.apache.flink.runtime.minicluster.MiniClusterJobClient</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>execGraph</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.6.0/calcite-core-1.6.0-sources.jar!/org/apache/calcite/tools/Programs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="323" column="19" selection-start-line="323" selection-start-column="19" selection-end-line="323" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.6.0/calcite-core-1.6.0-sources.jar!/org/apache/calcite/tools/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar!/scala/collection/TraversableOnce.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/calcite/tools/Programs.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="77" column="336" selection-start-line="77" selection-start-column="336" selection-end-line="77" selection-end-column="336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/optimize/program/FlinkVolcanoProgram.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/delegation/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/delegation/DefaultExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="82" column="65" lean-forward="true" selection-start-line="82" selection-start-column="65" selection-end-line="82" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.14.2/flink-streaming-java_2.11-1.14.2-sources.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="2100" column="61" lean-forward="true" selection-start-line="2100" selection-start-column="61" selection-end-line="2100" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.14.2/flink-streaming-java_2.11-1.14.2-sources.jar!/org/apache/flink/streaming/api/graph/StreamGraphGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="820" column="37" selection-start-line="820" selection-start-column="37" selection-end-line="820" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.14.2/flink-streaming-java_2.11-1.14.2-sources.jar!/org/apache/flink/streaming/api/graph/TransformationTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.14.2/flink-streaming-java_2.11-1.14.2-sources.jar!/org/apache/flink/streaming/api/graph/SimpleTransformationTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.14.2/flink-streaming-java_2.11-1.14.2-sources.jar!/org/apache/flink/streaming/runtime/translators/OneInputTransformationTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.14.2/flink-streaming-java_2.11-1.14.2-sources.jar!/org/apache/flink/streaming/api/graph/StreamGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="364" column="26" selection-start-line="364" selection-start-column="26" selection-end-line="364" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.14.2/flink-streaming-java_2.11-1.14.2-sources.jar!/org/apache/flink/streaming/runtime/translators/AbstractOneInputTransformationTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-clients_2.11/1.14.2/flink-clients_2.11-1.14.2-sources.jar!/org/apache/flink/client/deployment/executors/LocalExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime/1.14.2/flink-runtime-1.14.2-sources.jar!/org/apache/flink/runtime/jobgraph/tasks/TaskInvokable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.14.2/flink-core-1.14.2-sources.jar!/org/apache/flink/util/function/RunnableWithException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.14.2/flink-streaming-java_2.11-1.14.2-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTaskActionExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.14.2/flink-streaming-java_2.11-1.14.2-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="710" selection-start-line="710" selection-end-line="710" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.14.2/flink-streaming-java_2.11-1.14.2-sources.jar!/org/apache/flink/streaming/runtime/tasks/RegularOperatorChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/operators/aggregate/window/LocalSlicingWindowAggOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/operators/aggregate/window/buffers/RecordsWindowBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/util/collections/binary/WindowBytesMultiMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/util/collections/binary/AbstractBytesMultiMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime/1.14.2/flink-runtime-1.14.2-sources.jar!/org/apache/flink/runtime/io/disk/SimpleCollectingOutputView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/util/LazyMemorySegmentPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1852" selection-start-line="1852" selection-end-line="1852" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/delegation/Planner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime/1.14.2/flink-runtime-1.14.2-sources.jar!/org/apache/flink/runtime/memory/MemoryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="235" selection-start-line="235" selection-end-line="235" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/ExecNodeTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/common/CommonExecCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/ExecEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="249" selection-start-line="249" selection-end-line="249" />
+          <folding>
+            <element signature="e#8671#8672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/delegation/PlannerBase.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3050">
+          <caret line="184" column="8" selection-start-line="184" selection-start-column="8" selection-end-line="184" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/optimize/program/FlinkChainedProgram.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/delegation/StreamPlanner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/stream/StreamExecJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/stream/StreamExecSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1775">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime/1.14.2/flink-runtime-1.14.2-sources.jar!/org/apache/flink/runtime/taskmanager/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19375">
+          <caret line="926" selection-start-line="926" selection-end-line="926" />
+          <folding>
+            <element signature="e#24537#24538#0" expanded="true" />
+            <element signature="e#24576#24577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/generated/CompileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/ExecNodeBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime/1.14.2/flink-runtime-1.14.2-sources.jar!/org/apache/flink/runtime/taskexecutor/TaskExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13375">
+          <caret line="707" selection-start-line="707" selection-end-line="707" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/lmagic233/playground/sql/WindowTVFTwoPhaseAggr.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/api/TableEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="999" column="16" selection-start-line="999" selection-start-column="16" selection-end-line="999" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="735" column="52" selection-start-line="735" selection-start-column="52" selection-end-line="735" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/delegation/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/flink/sql/parser/ddl/SqlCreateFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/calcite/sql/SqlKind.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/operations/SqlToOperationConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="1054" column="34" selection-start-line="1054" selection-start-column="34" selection-end-line="1054" selection-end-column="34" />
+          <folding>
+            <element signature="e#52431#52432#0" expanded="true" />
+            <element signature="e#52490#52491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/delegation/ParserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
