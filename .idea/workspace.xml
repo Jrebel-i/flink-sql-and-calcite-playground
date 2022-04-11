@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8d8ea48-ab12-46f9-a37c-99b9f5898db7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/me/lmagic233/playground/sql/WindowTVFTwoPhaseAggr.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/me/lmagic233/playground/sql/WindowTVFTwoPhaseAggr.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/lmagic233/playground/ParseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/lmagic233/playground/ParseTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,87 +18,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/me/lmagic233/playground/sql/WindowTVFTwoPhaseAggr.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/api/TableEnvironment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="999" column="16" selection-start-line="999" selection-start-column="16" selection-end-line="999" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="735" column="52" selection-start-line="735" selection-start-column="52" selection-end-line="735" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.14.2/flink-table-api-java-1.14.2-sources.jar!/org/apache/flink/table/delegation/Parser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/delegation/ParserImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/operations/SqlToOperationConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="1054" column="34" selection-start-line="1054" selection-start-column="34" selection-end-line="1054" selection-end-column="34" />
+            <state relative-caret-position="294">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
-                <element signature="e#52431#52432#0" expanded="true" />
-                <element signature="e#52490#52491#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/calcite/sql/SqlKind.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/flink/sql/parser/ddl/SqlCreateFunction.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -148,7 +75,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="389" />
     <option name="y" value="158" />
     <option name="width" value="1939" />
@@ -166,6 +93,11 @@
             <path>
               <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
@@ -235,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649681104700" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649682230911" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Flink自定义源连接器来从电子邮件收件箱中读取数据/blog-imap" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -321,12 +253,12 @@
       <workItem from="1648177059245" duration="1372000" />
       <workItem from="1648438487123" duration="10114000" />
       <workItem from="1649419749146" duration="612000" />
-      <workItem from="1649679793562" duration="1094000" />
+      <workItem from="1649679793562" duration="2343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35398000" />
+    <option name="totallyTimeSpent" value="36647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -457,6 +389,12 @@
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/delegation/PlannerBase.scala</url>
           <line>184</line>
@@ -493,6 +431,7 @@
       <configuration name="Application">
         <watch expression="execGraph.getRootNodes" language="Scala" />
         <watch expression="rightSelect" language="JAVA" />
+        <watch expression="((SqlSelect)sqlNode).where" custom="org.apache.calcite.sql.SqlSelect" />
       </configuration>
     </watches-manager>
   </component>
@@ -549,20 +488,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.6.0/calcite-core-1.6.0-sources.jar!/org/apache/calcite/tools/Programs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="323" column="19" selection-start-line="323" selection-start-column="19" selection-end-line="323" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.6.0/calcite-core-1.6.0-sources.jar!/org/apache/calcite/tools/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar!/scala/collection/TraversableOnce.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -850,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/me/lmagic233/playground/sql/WindowTVFTwoPhaseAggr.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -892,13 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/calcite/sql/SqlKind.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/operations/SqlToOperationConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -914,6 +825,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/calcite/config/Lex.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/calcite/sql/SqlKind.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
