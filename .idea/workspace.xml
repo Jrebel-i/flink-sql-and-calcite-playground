@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8d8ea48-ab12-46f9-a37c-99b9f5898db7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/create/TableInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/lmagic233/playground/ParseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/lmagic233/playground/ParseTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +19,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/create/TableInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="-75">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/create/ParseCreate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,6 +73,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
         <option value="$PROJECT_DIR$/src/main/scala/me/lmagic233/playground/sql/WindowTVFTwoPhaseAggr.scala" />
         <option value="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/playground.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseCreate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/lmagic233/playground/TableInfo.java" />
       </list>
     </option>
   </component>
@@ -76,10 +95,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="389" />
-    <option name="y" value="158" />
-    <option name="width" value="1939" />
-    <option name="height" value="1059" />
+    <option name="x" value="388" />
+    <option name="y" value="157" />
+    <option name="width" value="1940" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -87,6 +106,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,6 +151,15 @@
               <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="playground" type="462c0819:PsiDirectoryNode" />
+              <item name="create" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-sql-and-calcite-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-sql-and-calcite-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -160,18 +190,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649682230911" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Flink自定义源连接器来从电子邮件收件箱中读取数据/blog-imap" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649692128674" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="me.lmagic233.playground" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,13 +218,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ParseTest">
+  <component name="RunManager" selected="Application.ParseCreate">
     <configuration name="CalciteMiniExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.lmagic233.playground.CalciteMiniExp" />
       <module name="flink-sql-and-calcite-playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.lmagic233.playground.*" />
+          <option name="PATTERN" value="me.lmagic233.playground.create.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseCreate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.lmagic233.playground.create.ParseCreate" />
+      <module name="flink-sql-and-calcite-playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.lmagic233.playground.create.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,7 +250,20 @@
       <module name="flink-sql-and-calcite-playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.lmagic233.playground.*" />
+          <option name="PATTERN" value="me.lmagic233.playground.create.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.lmagic233.playground.ParseTest2" />
+      <module name="flink-sql-and-calcite-playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.lmagic233.playground.create.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,6 +286,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParseCreate" />
+        <item itemvalue="Application.ParseTest2" />
         <item itemvalue="Application.ParseTest" />
         <item itemvalue="Application.WindowTVFTwoPhaseAggr" />
         <item itemvalue="Application.CalciteMiniExp" />
@@ -254,16 +315,18 @@
       <workItem from="1648438487123" duration="10114000" />
       <workItem from="1649419749146" duration="612000" />
       <workItem from="1649679793562" duration="2343000" />
+      <workItem from="1649688391044" duration="2803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36647000" />
+    <option name="totallyTimeSpent" value="39450000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978308" visible="true" weight="0.27771854" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978308" visible="true" weight="0.28150135" />
       <window_info id="Structure" order="1" sideWeight="0.50187266" side_tool="true" weight="0.26599148" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -272,16 +335,16 @@
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" sideWeight="0.5021692" side_tool="true" weight="0.26865673" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3264642" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39370933" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25354108" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719547" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -395,6 +458,24 @@
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest2.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest2.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/create/ParseCreate.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/delegation/PlannerBase.scala</url>
           <line>184</line>
@@ -429,14 +510,29 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="execGraph.getRootNodes" language="Scala" />
-        <watch expression="rightSelect" language="JAVA" />
-        <watch expression="((SqlSelect)sqlNode).where" custom="org.apache.calcite.sql.SqlSelect" />
+        <watch expression="matcher.group(1)" language="JAVA" />
+        <watch expression="matcher.group(2)" language="JAVA" />
+        <watch expression="matcher.group(3)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>matcher.group(3)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.group(2)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.group(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>rightSelect</expression-string>
         <language-id>JAVA</language-id>
@@ -474,41 +570,9 @@
         <custom-info>org.apache.flink.runtime.minicluster.MiniClusterJobClient</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>((MiniClusterJobClient) jobClient).jobID</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>org.apache.flink.runtime.minicluster.MiniClusterJobClient</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>execGraph</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar!/scala/collection/TraversableOnce.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/calcite/tools/Programs.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="77" column="336" selection-start-line="77" selection-start-column="336" selection-end-line="77" selection-end-column="336" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/optimize/program/FlinkVolcanoProgram.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -579,13 +643,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-clients_2.11/1.14.2/flink-clients_2.11-1.14.2-sources.jar!/org/apache/flink/client/deployment/executors/LocalExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-clients_2.11/1.14.2/flink-clients_2.11-1.14.2-sources.jar!/org/apache/flink/client/deployment/executors/LocalExecutor.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime/1.14.2/flink-runtime-1.14.2-sources.jar!/org/apache/flink/runtime/jobgraph/tasks/TaskInvokable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -593,13 +651,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.14.2/flink-core-1.14.2-sources.jar!/org/apache/flink/util/function/RunnableWithException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.14.2/flink-core-1.14.2-sources.jar!/org/apache/flink/util/function/RunnableWithException.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.14.2/flink-streaming-java_2.11-1.14.2-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTaskActionExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -621,34 +673,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/operators/aggregate/window/LocalSlicingWindowAggOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/operators/aggregate/window/buffers/RecordsWindowBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/util/collections/binary/WindowBytesMultiMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/util/collections/binary/AbstractBytesMultiMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="225" selection-start-line="225" selection-end-line="225" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/operators/aggregate/window/LocalSlicingWindowAggOperator.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/operators/aggregate/window/buffers/RecordsWindowBuffer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/util/collections/binary/WindowBytesMultiMap.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/util/collections/binary/AbstractBytesMultiMap.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime/1.14.2/flink-runtime-1.14.2-sources.jar!/org/apache/flink/runtime/io/disk/SimpleCollectingOutputView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -656,13 +684,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/util/LazyMemorySegmentPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/util/LazyMemorySegmentPool.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -754,13 +776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/generated/CompileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime_2.11/1.14.2/flink-table-runtime_2.11-1.14.2-sources.jar!/org/apache/flink/table/runtime/generated/CompileUtils.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/ExecNodeBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2300">
@@ -828,9 +844,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/calcite/config/Lex.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -838,17 +852,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/calcite/sql/SqlKind.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="-97">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.14.2/flink-table-planner_2.11-1.14.2.jar!/org/apache/calcite/sql/SqlKind.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="105">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/ParseTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/create/TableInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/lmagic233/playground/create/ParseCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
